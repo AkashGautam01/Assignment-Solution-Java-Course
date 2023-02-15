@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Data {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter name and roll no and field :");
+        String name = sc.nextLine();
+        int roll_no = sc.nextInt();
+        String field = sc.next();
+        System.out.println("Name : " + name);
+        System.out.println("Roll no : " + roll_no);
+        System.out.println("Field of interest : " + field);
+
+        sc.close();
+    }
+}
